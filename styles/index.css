@@ -1,0 +1,35 @@
+@import url("variables.css");
+@import url("fonts.css");
+@import url("buttons.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding-inline: auto;
+}
+header{
+    padding-block: 2rem;
+    
+}
+header ul{
+    display: inline;
+    padding: ri;
+}
+header ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 2rem;
+}
+h4{
+    display: inline;
+    font-size: 40px;
+    
+}
