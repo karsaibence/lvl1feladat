@@ -1,9 +1,36 @@
+
 .buttons{
-    display: inline;
+    display: inline; 
+    margin-left: 5,5rem;
+    text-decoration: none;
+}
+.button{
+    display: inline-flex;
+    padding: .5rem;
+    transition: ease-in-out .25s;
+    margin: .5rem;
+    justify-content: center;
+    border-radius: 1.25rem;
+    width: 125px;
+    text-decoration: none;
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
 .white{
-    display: inline;
+    border: solid 2px var(--text-color);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-decoration: none;
 }
-.black{
-    display: inline;
+.button:hover{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: solid 2px var(--text-color);
 }
+.white:hover{
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+
+

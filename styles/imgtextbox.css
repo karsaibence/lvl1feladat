@@ -1,0 +1,31 @@
+.gridImgBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-inline: auto;
+}
+.imgtextbox{
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    text-align: left;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: .5rem;
+    padding: 1rem;
+    padding-top: 250px;
+    color: var(--background-color);
+}
+.p1{
+    background-image: url(../pictures/ora1.jpg);
+}
+.p2{
+    background-image: url(../pictures/ora2.jpg);
+}
+.p3{
+    background-image: url(../pictures/ora3.jpg);
+}
+.imgtextbox h3{
+
+}

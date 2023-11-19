@@ -1,0 +1,11 @@
+.imgBox {
+    background-image: url(../pictures/ora4.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: .5rem;
+    margin-inline: auto;
+    width: 450px;
+    height: 450px;
+}
